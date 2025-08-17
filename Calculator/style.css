@@ -1,0 +1,94 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e3f9ff;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator box */
+.calculator {
+    background: #3a4452;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3),
+                -5px -5px 20px rgba(255,255,255,0.1);
+}
+
+/* Display container */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+form .display input {
+    flex: 1;
+    font-size: 45px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding-right: 10px;
+    box-shadow: none;
+}
+
+/* Buttons common style */
+.calculator form input {
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background: #3a4452;
+    font-size: 22px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: -5px -5px 10px rgba(225,255,255,0.1),
+                 5px 5px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.calculator form input:hover {
+    transform: translateY(-3px);
+    box-shadow: -3px -3px 6px rgba(225,255,255,0.2),
+                 3px 3px 6px rgba(0,0,0,0.3);
+}
+
+/* Equals button bigger */
+form input.equal {
+    width: 145px;
+    background: #33ffd8;
+    color: #3a4452;
+    font-weight: bold;
+    box-shadow: -5px -5px 15px rgba(0,255,210,0.2),
+                5px 5px 15px rgba(0,0,0,0.2);
+}
+
+form input.equal:hover {
+    transform: translateY(-3px);
+    box-shadow: -3px -3px 10px rgba(0,255,210,0.3),
+                3px 3px 10px rgba(0,0,0,0.3);
+}
+
+/* Operator buttons color */
+form input.operator {
+    color: #33ffd8;
+    font-weight: bold;
+}
