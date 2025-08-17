@@ -6,4 +6,4 @@ This repository contains my beginner-friendly JavaScript projects.
 
 ### 1. Calculator
 A simple and responsive calculator built with **HTML, CSS, and JavaScript**.  
-👉 [Live Demo](https://pavanpirates.github.io/javascript-projects/calculator/)  
+👉 [Live Demo](https://pavanpirates.github.io/javascript-mini-projects/calculator/)  
