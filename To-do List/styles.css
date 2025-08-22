@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: #A9A9A9;
     padding: 10px;
 }
 .todo-app{
@@ -107,5 +107,6 @@ input{
     ul li span:hover{
         background: #edeef0;;
     }
+
 
   
